@@ -80,6 +80,16 @@ With **Include variations and regions** turned on, each ad also has `variationCo
 
 If a name, website, or ID finds nothing, you get a free row with `resultType: "error"` explaining why. For names, it also lists similar advertisers.
 
+## Use it from AI agents (Claude, ChatGPT, Cursor)
+
+AI assistants can run this Actor as a tool through [Apify's MCP server](https://docs.apify.com/platform/integrations/mcp). Add this server URL to any MCP client:
+
+```
+https://mcp.apify.com?tools=rsiddiq95/google-ads-transparency-scraper
+```
+
+Then just ask, for example: *"Show me the Google ads that notion.so has been running in the US this month, with their ad text."* Agent runs cost the same per result as runs from the console.
+
 ## How much does it cost?
 
 You pay per ad returned. See the **Pricing** tab for current prices. Apify's free plan includes monthly credit to try it out.
