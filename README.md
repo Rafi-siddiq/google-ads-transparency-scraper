@@ -97,6 +97,11 @@ You pay per ad returned. See the **Pricing** tab for current prices. Apify's fre
 - Google limits how fast the site can be read, so the Actor paces itself. Large runs (thousands of ads) take longer.
 - Google reports the total number of ads as a range, for example "7000-8000".
 
+## Works well with
+
+- **[Google Sheets Sync](https://apify.com/rsiddiq95/google-sheets-sync):** schedule this Actor daily and upsert by `creativeId`, so your competitor-ads sheet updates existing ads and adds only new ones.
+- **[Google Trends Scraper](https://apify.com/rsiddiq95/google-trends-scraper):** check search interest for the products and offers your competitors are advertising.
+
 ## FAQ
 
 **Is it legal to scrape the Google Ads Transparency Center?**
